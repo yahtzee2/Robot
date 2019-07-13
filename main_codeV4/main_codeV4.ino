@@ -19,6 +19,10 @@ void setup()
   sound(500, 250);
   glcdClear();
   
+  sw1_press(); // or sw_ok_press();
+  // sw1() true when press
+  pid_T(1,1,40,5000);
+  
 }
 void loop()
 {
